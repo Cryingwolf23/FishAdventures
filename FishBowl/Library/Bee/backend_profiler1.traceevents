@@ -1,0 +1,543 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1714488390814049, "dur":1969, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488390816031, "dur":119, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1714488390816196, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1714488390816219, "dur":259, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1714488390816509, "dur":1044, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488390817554, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488393225263, "dur":105, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488393225368, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488393225395, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488393225400, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488393225411, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488393225414, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488393225422, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488393225425, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488393225438, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488393225458, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488393225483, "dur":38425, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1714488390816458, "dur":1140, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714488390817602, "dur":7498, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714488390825121, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1714488390825128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714488390826646, "dur":652, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1714488390827302, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1714488390827385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714488390842283, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1714488390843998, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1714488390844160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714488390844420, "dur":15182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1714488390859669, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1714488390859840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714488390859849, "dur":32710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1714488390892663, "dur":20766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1714488390913438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714488390913447, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1714488390915086, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1714488390915244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714488390915891, "dur":25174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1714488390941189, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1714488390941474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714488390941488, "dur":39863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1714488390981526, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1714488390981909, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714488390981924, "dur":19913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1714488391001948, "dur":2207638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714488393209592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714488393209599, "dur":15550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714488393225221, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1714488393225225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714488390816457, "dur":1151, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714488390817609, "dur":7504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714488390825121, "dur":58522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1714488390883649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714488390883984, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1714488390885452, "dur":35111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1714488390920567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714488390920575, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1714488390921927, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1714488390922053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714488390922112, "dur":70995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1714488390993177, "dur":1595075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714488392588263, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714488392588467, "dur":9866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714488392598516, "dur":626758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488390816535, "dur":1083, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488390817618, "dur":7519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488390825138, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1714488390825321, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488390842578, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1714488390844061, "dur":42904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1714488390886971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488390886980, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1714488390888644, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1714488390888797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488390888884, "dur":28772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1714488390917725, "dur":46832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1714488390964561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488390964568, "dur":19120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1714488390983852, "dur":76689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391060546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391060908, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391062889, "dur":6080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl.exe" }}
+,{ "pid":12345, "tid":3, "ts":1714488391068974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391068980, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl.exe" }}
+,{ "pid":12345, "tid":3, "ts":1714488391070768, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1714488391070951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391071343, "dur":61320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1714488391132731, "dur":7173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391139911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391140175, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391141370, "dur":6281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391147655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391147736, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391148930, "dur":4505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391153439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391153445, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391155447, "dur":4464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391159915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391159921, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391161104, "dur":4475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391165584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391165590, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391166904, "dur":5700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391172608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391172614, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391173823, "dur":4989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391178817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391178822, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391180004, "dur":4410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391184419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391184424, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391185693, "dur":4517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391190215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391190221, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391191373, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391191551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391191556, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391192883, "dur":4273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391197161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391197167, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391198367, "dur":5069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391203441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391203447, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391204625, "dur":4953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391209603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391209609, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391210845, "dur":5078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391215927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391215933, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391217139, "dur":5928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391223071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391223077, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391224266, "dur":4528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391228798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391228804, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391230746, "dur":5380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391236131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391236137, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391237479, "dur":5036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391242520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391242542, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391243761, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391243985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391243991, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391245437, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391245638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391245644, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391247086, "dur":1770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391248861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391248867, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391251141, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391251492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391251498, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391253220, "dur":4261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391257486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391257491, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391258749, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391258973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391258980, "dur":32258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391291290, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391291731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391291739, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391293323, "dur":5699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391299027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391299032, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391300306, "dur":4954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391305265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391305270, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391306793, "dur":6078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391312878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391312885, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391314297, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391314508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391314515, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391316022, "dur":6240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391322266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391322273, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391323973, "dur":7490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391331469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391331477, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391333137, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391333547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391333556, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391335358, "dur":6964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391342328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391342337, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391344124, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391344370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391344378, "dur":1626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391346076, "dur":7358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391353452, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391353462, "dur":22687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391376478, "dur":791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391377278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391377291, "dur":2876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391380286, "dur":10316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391390610, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391390624, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391393085, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391393402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391393411, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391395336, "dur":7756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391403097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391403105, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391405006, "dur":7587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391412600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391412607, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391414131, "dur":1790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391415926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391415935, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391418187, "dur":6573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391424767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391424775, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391426402, "dur":6479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391432889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391432900, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391434428, "dur":7665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391442099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391442106, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391443774, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391444180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391444189, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391446016, "dur":7160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391453185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391453197, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391454912, "dur":1226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391456142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391456150, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391458143, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391458526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391458535, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391460574, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391460801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391460812, "dur":39429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391500447, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391500935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391500952, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391504765, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391505235, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391505271, "dur":3364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391508807, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391509267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391509290, "dur":3834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391513280, "dur":569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391513858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391513873, "dur":3750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391517785, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391518288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391518310, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391522103, "dur":2747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391524860, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391524877, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391529923, "dur":1047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391530976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391530989, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391534066, "dur":52607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391586678, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391586687, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391588095, "dur":121871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391709972, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391709981, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391711723, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391711977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391711986, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391713679, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391714026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391714035, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391715902, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391716138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391716146, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391717839, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391718123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391718141, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391719847, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391720111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391720119, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391722242, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391722513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391722522, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391724303, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391724700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391724708, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391726381, "dur":5072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391731459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391731468, "dur":3546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391735079, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391735326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391735334, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391737079, "dur":518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391737601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391737610, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391739433, "dur":713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391740150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391740159, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391742201, "dur":1618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391743861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391743870, "dur":2381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391746331, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391746576, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391746593, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391748386, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391748782, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391748799, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391750685, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391751056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391751065, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391753125, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391753387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391753395, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391755196, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391755578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391755585, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391757430, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391758434, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391758443, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391760469, "dur":4559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391765033, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391765043, "dur":4520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391769653, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391769937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391769947, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391771950, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391772365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391772372, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391774831, "dur":607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391775442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391775451, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391777333, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391777685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391777694, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391779537, "dur":617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391780160, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391780179, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391782019, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391782671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391782680, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391784747, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391785041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391785050, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391786847, "dur":122287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391909141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391909725, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714488391911420, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1714488391911489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391911495, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1714488391913261, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1714488391913332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391913338, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1714488391915001, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1714488391915076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391915085, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1714488391916600, "dur":13419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1714488391930024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714488391930032, "dur":32435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1714488391962550, "dur":1262694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488390816576, "dur":1053, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488390817630, "dur":7508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488390825138, "dur":35874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714488390861017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488390861037, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714488390862557, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1714488390862729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488390863262, "dur":39903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1714488390903211, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1714488390903328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488390903333, "dur":19608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1714488390923008, "dur":33067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1714488390956080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488390956088, "dur":26264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1714488390982530, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1714488390982889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488390982905, "dur":26319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1714488391009295, "dur":274349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1714488391283648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391283654, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1714488391285762, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391285948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391285954, "dur":5795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391291816, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391292047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391292056, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391293555, "dur":6649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391300212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391300223, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391301706, "dur":5825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391307535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391307541, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391308878, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391309090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391309097, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391310533, "dur":5611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391316191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391316199, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391317776, "dur":4508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391322289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391322295, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391324066, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391324434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391324440, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391326108, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391326465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391326473, "dur":3175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391329726, "dur":7396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391337129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391337138, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391338864, "dur":6685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391345558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391345568, "dur":29868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391375560, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391376007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391376019, "dur":3373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391379517, "dur":11084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391390609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391390620, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391393185, "dur":7867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391401059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391401069, "dur":1746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391402880, "dur":6941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391409826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391409837, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391411163, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391411378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391411385, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391412876, "dur":6141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391419056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391419064, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391420743, "dur":6391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391427140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391427148, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391428817, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391429109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391429116, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391430942, "dur":7412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391438362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391438374, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391440365, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391440818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391440827, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391442596, "dur":6901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391449502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391449509, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391451033, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391451375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391451384, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391453467, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391454128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391454139, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391456006, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391456357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391456364, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391458264, "dur":728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391459031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391459041, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391461089, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391461338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391461349, "dur":40245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391501775, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391502244, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391502261, "dur":3502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391505912, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391506499, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391506520, "dur":3391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391510072, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391510549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391510571, "dur":3468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391514210, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391514675, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391514690, "dur":3484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391518331, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391518781, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391518801, "dur":3572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391522549, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391522978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391522998, "dur":3326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391526486, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391526956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391527039, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391530462, "dur":73202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391603669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391603675, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391604904, "dur":150321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391755229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391755237, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391757221, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391757581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391757589, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391759799, "dur":5730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391765535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391765544, "dur":4350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391769972, "dur":2038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391772014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391772024, "dur":3063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391775155, "dur":1190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391776350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391776359, "dur":2363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391778799, "dur":8114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391786917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391786925, "dur":4470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714488391791464, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1714488391791709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391792329, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1714488391794320, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1714488391794391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391794459, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1714488391796342, "dur":2908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1714488391799257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391799266, "dur":108848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1714488391912161, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1714488391912284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391912294, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1714488391913936, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1714488391914011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391914020, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1714488391915646, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1714488391915859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391915868, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1714488391917445, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1714488391917524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391917530, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1714488391920132, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1714488391920198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391920205, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1714488391922113, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1714488391922173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391922180, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1714488391924082, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1714488391924154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391924162, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1714488391925886, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1714488391925964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391925971, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1714488391927602, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1714488391927669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391927676, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1714488391929445, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1714488391929517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391929524, "dur":32623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1714488391962230, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FinishedGame/FishBowl_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1714488391962446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714488391962454, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FinishedGame/FishBowl_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1714488391964289, "dur":1260985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714488393266952, "dur":3056, "ph":"X", "name": "ProfilerWriteOutput" }
+,
